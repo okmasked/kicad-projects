@@ -5,4 +5,4 @@ This is for my kicad projects
 - 03 Digitale Uhr
 # Finished Projects
 + 02 LED-Herz Lm555
-+ 01 LED-Beleuchtung (not in repo)
++ 01 LED-Beleuchtung (lost media)
