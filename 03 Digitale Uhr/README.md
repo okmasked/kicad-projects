@@ -47,88 +47,87 @@ immense Hilfe: https://jacobsa.github.io/circuits/
 ------------------------------------------------
 28.03.2025 (2-stündige Einheit)
 
-	- Alle Dateien die wichtig für das projekt sind verloren :(
-	- Arbeitsverlauf: 
-		- Schaltung in multisim neu aufgebaut (vom frequenzteiler)
-		- wiedersimulieren von der schaltung
-		- Word Dokument neu anlegen und schreiben (1. Taktgeber fertig, 2. Zähler angefangen)
-		- Schaltung für den Zähler in Multisim aufbauen (W.I.P.)
+- Alle Dateien die wichtig für das projekt sind verloren :(
+- Arbeitsverlauf: 
+	- Schaltung in multisim neu aufgebaut (vom frequenzteiler)
+	- wiedersimulieren von der schaltung
+	- Word Dokument neu anlegen und schreiben (1. Taktgeber fertig, 2. Zähler angefangen)
+	- Schaltung für den Zähler in Multisim aufbauen (W.I.P.)
 ------------------------------------------------
 03.04.2025 (1-stündige Einheit)
 
-	- Über mögliche Störfaktoren in der Schaltung geredet und wie man sie beheben kann.
-		- Stützkondensator für die CMOS bausteine
+- Über mögliche Störfaktoren in der Schaltung geredet und wie man sie beheben kann.
+	- Stützkondensator für die CMOS bausteine
 ------------------------------------------------
 04.04.2025 (2-stündige Einheit)
 
-	- Einbauen der gestern besprochenen behebungen gegen die Störfaktoren
-	- neuaufbau der zählerschaltung, da zu unübersichtlich zuvor
-		Note: Es sind keine Stützkondensatoren, weil keine Vcc und GND Inputs sind an den Bausteinen
-	- Die Schaltung hat jetzt, anstatt den digital Displays, 4511 (7-Segment Decoder) und normalen 7-Segment Displays
-	- Schaltung noch nicht operationstüchtig, da ich noch nicht die ganze Logik verbunden habe
-	- Schaltung braucht noch auf und ab Zähler
+ - Einbauen der gestern besprochenen behebungen gegen die Störfaktoren
+- neuaufbau der zählerschaltung, da zu unübersichtlich zuvor
+	Note: Es sind keine Stützkondensatoren, weil keine Vcc und GND Inputs sind an den Bausteinen
+- Die Schaltung hat jetzt, anstatt den digital Displays, 4511 (7-Segment Decoder) und normalen 7-Segment Displays
+- Schaltung noch nicht operationstüchtig, da ich noch nicht die ganze Logik verbunden habe
+- Schaltung braucht noch auf und ab Zähler
 ------------------------------------------------
 24.04.2025 (1-stündige Einheit)
 
-	- Besprochen, wie Schalter synchronisiert und entprellt (2 RS FFs) werden
+- Besprochen, wie Schalter synchronisiert und entprellt (2 RS FFs) werden
 ------------------------------------------------
 25.04.2025 (2-stündige Einheit)
 
-	- Von Common Anode 7-Segment Displays auf Common Cathode wechseln und neu verkabeln
-		- Wurden auch von 6 Single 7-Segment Anzeigen auf 3 Dual 7-Segment Anzeigen geändert
-	- Die Schaltung zu einer Uhr machen indem die Reset-Logik gemacht wird (noch nicht fertig, wird wahrscheinlich zuhause gemacht)
-		- Reset-Logik muss noch überarbeitet werden, da eine 6 für eine kurze Zeit gesehen werden kann auf der 7-Segment Anzeige
-	- Wenn die Reset-Logik fertig ist kann ich mit peripherien wie Power On Rest (POR) und  entprellung & synchronisation von Schaltern arbeiten.
-	  Ebenfalls müssen andere Sachen wie, änderung der Zeit berücksichtigt werden
+- Von Common Anode 7-Segment Displays auf Common Cathode wechseln und neu verkabeln
+	- Wurden auch von 6 Single 7-Segment Anzeigen auf 3 Dual 7-Segment Anzeigen geändert
+- Die Schaltung zu einer Uhr machen indem die Reset-Logik gemacht wird (noch nicht fertig, wird wahrscheinlich zuhause gemacht)
+	- Reset-Logik muss noch überarbeitet werden, da eine 6 für eine kurze Zeit gesehen werden kann auf der 7-Segment Anzeige
+- Wenn die Reset-Logik fertig ist kann ich mit peripherien wie Power On Rest (POR) und  entprellung & synchronisation von Schaltern arbeiten.
+  Ebenfalls müssen andere Sachen wie, änderung der Zeit berücksichtigt werden
 ------------------------------------------------
 08.05.2025 (1-stündige Einheit)
 
-	- Suppliert
+- Suppliert
 ------------------------------------------------
 09.05.2025 (2-stündige Einheit)
-	- Bus über 2 seiten verbinde:
-		-> Doppel click auf bus leitung\
-		-> Leitung benennen\
-		-> Seitenübergreifend einfügen und id setzen\
-		-> profit\
-	- Reset-Logik funktioniert jetzt.
-	- Power On Reset ist jetzt dran.\
-		Keine ahnung warum, aber der funktioniert bei mir nicht. Werd ich noch investigieren. 
+- Bus über 2 seiten verbinde:
+	-> Doppel click auf bus leitung\
+	-> Leitung benennen\
+	-> Seitenübergreifend einfügen und id setzen\
+	-> profit\
+- Reset-Logik funktioniert jetzt.
+- Power On Reset ist jetzt dran.\
+	Keine ahnung warum, aber der funktioniert bei mir nicht. Werd ich noch investigieren. 
 -------------------------------------------------
 15.05.2025 (1-stündige Einheit)
-	- Das meiste was wir gemacht haben betrifft die timer, nicht die Uhr :sob:
+- Das meiste was wir gemacht haben betrifft die timer, nicht die Uhr :sob:
 -------------------------------------------------
 16.05.2025 (2-stündige Einheit)
 
-	- Power on Reset funktioniert jetzt
-    	- Das Problem: ich habe die Reset-Logik falsch verbunden.\
-		  Der Power On Reset war einfach nach belieben verbunden mit den MR pins.\
-		  Das habe ich lösen können indem ich es einfach mit einem OR-Gate verknüpfe and den MR.
-	- Jetzt muss ich testen ob die Reset-Logik funktioniert.\
-	  Der Testmodus muss eingebaut werden.\
-	  Testen war erfolgreich und ich konnte ein paar fehler entfernen.\
-	- Nächster schritt ist die entprellung der Taster.
+- Power on Reset funktioniert jetzt
+	- Das Problem: ich habe die Reset-Logik falsch verbunden.\
+	  Der Power On Reset war einfach nach belieben verbunden mit den MR pins.\
+	  Das habe ich lösen können indem ich es einfach mit einem OR-Gate verknüpfe and den MR.
+- Jetzt muss ich testen ob die Reset-Logik funktioniert.\
+  Der Testmodus muss eingebaut werden.\
+  Testen war erfolgreich und ich konnte ein paar fehler entfernen.\
+- Nächster schritt ist die entprellung der Taster.
 -------------------------------------------------
 21.05.2025 (1-stündige Einheit)
 
-    - versucht ni-multisim via wine zu installieren\
-        nicht erfolgreich, da der package manager die EULA nicht anzeigen kann.\
-        vielleicht nochmal testen mit dem offline installer, aber ich habe sonst keine große hoffnung.
+   - versucht ni-multisim via wine zu installieren\
+       nicht erfolgreich, da der package manager die EULA nicht anzeigen kann.\
+       vielleicht nochmal testen mit dem offline installer, aber ich habe sonst keine große hoffnung.
 -------------------------------------------------
 22.05.2025 (2-stündige Einheit)
 
-	- betreffemd gestern, man kann multisim nicht mit wine installieren da:
-		+ Das NI license Agreement nicht angezeigt werden kann durch den package manager
-		+ Ich keine NI driver installiert habe
-		+ Kein offizieller arch support existiert (nur windows, suse, redhat und ubuntu)
-	- Lösungen zu diesem problem wären:
-		+ installieren über .rpm (redhat package manager) dateien.
-		+ ein PKGBUILD schreiben und dann über pacman installieren
-		+ windows vm verwenden oder gar dualbooten
-	- Ich werde das definitiv später nochmal probieren, da in diesen 2 stunden nicht genug zeit ist\
-	  um das alles zu recherechieren und dann auch noch meine Arbeit zu machen
-
+- betreffemd gestern, man kann multisim nicht mit wine installieren da:
+	+ Das NI license Agreement nicht angezeigt werden kann durch den package manager
+	+ Ich keine NI driver installiert habe
+	+ Kein offizieller arch support existiert (nur windows, suse, redhat und ubuntu)
+- Lösungen zu diesem problem wären:
+	+ installieren über .rpm (redhat package manager) dateien.
+	+ ein PKGBUILD schreiben und dann über pacman installieren
+	+ windows vm verwenden oder gar dualbooten
+- Ich werde das definitiv später nochmal probieren, da in diesen 2 stunden nicht genug zeit ist\
+  um das alles zu recherechieren und dann auch noch meine Arbeit zu machen
 	- Nachdem das fertig ist, werde ich mich an den einstell mechanismus für die uhr wenden (sekunden, minuten und stunden auf knopfdruck ändern)
-		- mögliche wege:
-			+ 3 knöpfe: einer zum setzen in den "set" modus, ein zweiter für das einstellen (+1 pro click) und ein dritter für toggeln zwischen zeiten (stunden minuten sekunden)
-			+ für jede 1er stelle der zeit einen eigenen taster, mit noch immer einem "set" modus	
+	- mögliche wege:
+		+ 3 knöpfe: einer zum setzen in den "set" modus, ein zweiter für das einstellen (+1 pro click) und ein dritter für toggeln zwischen zeiten (stunden minuten sekunden)
+		+ für jede 1er stelle der zeit einen eigenen taster, mit noch immer einem "set" modus	
