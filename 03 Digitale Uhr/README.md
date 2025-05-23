@@ -46,6 +46,7 @@ immense Hilfe: https://jacobsa.github.io/circuits/
 	- bcd zu 7-Segment converter suchen (4511)
 ------------------------------------------------
 28.03.2025 (2-stündige Einheit)
+
 	- Alle Dateien die wichtig für das projekt sind verloren :(
 	- Arbeitsverlauf: 
 		- Schaltung in multisim neu aufgebaut (vom frequenzteiler)
@@ -54,10 +55,12 @@ immense Hilfe: https://jacobsa.github.io/circuits/
 		- Schaltung für den Zähler in Multisim aufbauen (W.I.P.)
 ------------------------------------------------
 03.04.2025 (1-stündige Einheit)
+
 	- Über mögliche Störfaktoren in der Schaltung geredet und wie man sie beheben kann.
 		- Stützkondensator für die CMOS bausteine
 ------------------------------------------------
 04.04.2025 (2-stündige Einheit)
+
 	- Einbauen der gestern besprochenen behebungen gegen die Störfaktoren
 	- neuaufbau der zählerschaltung, da zu unübersichtlich zuvor
 		Note: Es sind keine Stützkondensatoren, weil keine Vcc und GND Inputs sind an den Bausteinen
@@ -66,9 +69,11 @@ immense Hilfe: https://jacobsa.github.io/circuits/
 	- Schaltung braucht noch auf und ab Zähler
 ------------------------------------------------
 24.04.2025 (1-stündige Einheit)
+
 	- Besprochen, wie Schalter synchronisiert und entprellt (2 RS FFs) werden
 ------------------------------------------------
 25.04.2025 (2-stündige Einheit)
+
 	- Von Common Anode 7-Segment Displays auf Common Cathode wechseln und neu verkabeln
 		- Wurden auch von 6 Single 7-Segment Anzeigen auf 3 Dual 7-Segment Anzeigen geändert
 	- Die Schaltung zu einer Uhr machen indem die Reset-Logik gemacht wird (noch nicht fertig, wird wahrscheinlich zuhause gemacht)
@@ -77,6 +82,7 @@ immense Hilfe: https://jacobsa.github.io/circuits/
 	  Ebenfalls müssen andere Sachen wie, änderung der Zeit berücksichtigt werden
 ------------------------------------------------
 08.05.2025 (1-stündige Einheit)
+
 	- Suppliert
 ------------------------------------------------
 09.05.2025 (2-stündige Einheit)
@@ -93,6 +99,7 @@ immense Hilfe: https://jacobsa.github.io/circuits/
 	- Das meiste was wir gemacht haben betrifft die timer, nicht die Uhr :sob:
 -------------------------------------------------
 16.05.2025 (2-stündige Einheit)
+
 	- Power on Reset funktioniert jetzt
     	- Das Problem: ich habe die Reset-Logik falsch verbunden.\
 		  Der Power On Reset war einfach nach belieben verbunden mit den MR pins.\
@@ -103,11 +110,13 @@ immense Hilfe: https://jacobsa.github.io/circuits/
 	- Nächster schritt ist die entprellung der Taster.
 -------------------------------------------------
 21.05.2025 (1-stündige Einheit)
+
     - versucht ni-multisim via wine zu installieren\
         nicht erfolgreich, da der package manager die EULA nicht anzeigen kann.\
         vielleicht nochmal testen mit dem offline installer, aber ich habe sonst keine große hoffnung.
 -------------------------------------------------
 22.05.2025 (2-stündige Einheit)
+
 	- betreffemd gestern, man kann multisim nicht mit wine installieren da:
 		+ Das NI license Agreement nicht angezeigt werden kann durch den package manager
 		+ Ich keine NI driver installiert habe
