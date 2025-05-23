@@ -116,7 +116,7 @@
 -------------------------------------------------
 22.05.2025 (2-stündige Einheit)
 
-- betreffemd gestern, man kann multisim nicht mit wine installieren da:
+- betreffend gestern: man kann multisim nicht mit wine installieren da:
 	+ Das NI license Agreement nicht angezeigt werden kann durch den package manager
 	+ Ich keine NI driver installiert habe
 	+ Kein offizieller arch support existiert (nur windows, suse, redhat und ubuntu)
@@ -126,7 +126,7 @@
 	+ windows vm verwenden oder gar dualbooten
 - Ich werde das definitiv später nochmal probieren, da in diesen 2 stunden nicht genug zeit ist\
   um das alles zu recherechieren und dann auch noch meine Arbeit zu machen
-	- Nachdem das fertig ist, werde ich mich an den einstell mechanismus für die uhr wenden (sekunden, minuten und stunden auf knopfdruck ändern)
+- Nachdem das fertig ist, werde ich mich an den einstell mechanismus für die uhr wenden (sekunden, minuten und stunden auf knopfdruck ändern)
 	- mögliche wege:
 		+ 3 knöpfe: einer zum setzen in den "set" modus, ein zweiter für das einstellen (+1 pro click) und ein dritter für toggeln zwischen zeiten (stunden minuten sekunden)
 		+ für jede 1er stelle der zeit einen eigenen taster, mit noch immer einem "set" modus	
