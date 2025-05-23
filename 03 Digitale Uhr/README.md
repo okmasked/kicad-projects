@@ -39,11 +39,11 @@ immense Hilfe: https://jacobsa.github.io/circuits/
 ------------------------------------------------
 # Documentation
 07.03.2025
-	- Dokumentieren das die Schaltung für den oszi schwingt
+- Dokumentieren das die Schaltung für den oszi schwingt
 ------------------------------------------------
 27.03.2025 (1-stündige Einheit)
-	- Zählerbaustein cd40110 anschauen
-	- bcd zu 7-Segment converter suchen (4511)
+- Zählerbaustein cd40110 anschauen
+- bcd zu 7-Segment converter suchen (4511)
 ------------------------------------------------
 28.03.2025 (2-stündige Einheit)
 
