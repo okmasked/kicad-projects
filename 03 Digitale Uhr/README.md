@@ -32,10 +32,9 @@
 
 ------------------------------------------------
 # Quellen
-bild von quearzoszillator prinzipschaltung: https://elektro.turanis.de/html/prj398/index.html
-bild von enpreller eines Schalters: https://www.ganssle.com/debouncing-pt2.htm
-
-immense Hilfe: https://jacobsa.github.io/circuits/
+- bild von quearzoszillator prinzipschaltung: https://elektro.turanis.de/html/prj398/index.html
+- bild von enpreller eines Schalters: https://www.ganssle.com/debouncing-pt2.htm
+- immense Hilfe: https://jacobsa.github.io/circuits/
 ------------------------------------------------
 # Documentation
 07.03.2025
@@ -78,7 +77,7 @@ immense Hilfe: https://jacobsa.github.io/circuits/
 	- Wurden auch von 6 Single 7-Segment Anzeigen auf 3 Dual 7-Segment Anzeigen geändert
 - Die Schaltung zu einer Uhr machen indem die Reset-Logik gemacht wird (noch nicht fertig, wird wahrscheinlich zuhause gemacht)
 	- Reset-Logik muss noch überarbeitet werden, da eine 6 für eine kurze Zeit gesehen werden kann auf der 7-Segment Anzeige
-- Wenn die Reset-Logik fertig ist kann ich mit peripherien wie Power On Rest (POR) und  entprellung & synchronisation von Schaltern arbeiten.
+- Wenn die Reset-Logik fertig ist kann ich mit peripherien wie Power On Rest (POR) und  entprellung & synchronisation von Schaltern arbeiten.\
   Ebenfalls müssen andere Sachen wie, änderung der Zeit berücksichtigt werden
 ------------------------------------------------
 08.05.2025 (1-stündige Einheit)
@@ -90,7 +89,7 @@ immense Hilfe: https://jacobsa.github.io/circuits/
 	-> Doppel click auf bus leitung\
 	-> Leitung benennen\
 	-> Seitenübergreifend einfügen und id setzen\
-	-> profit\
+	-> profit
 - Reset-Logik funktioniert jetzt.
 - Power On Reset ist jetzt dran.\
 	Keine ahnung warum, aber der funktioniert bei mir nicht. Werd ich noch investigieren. 
@@ -106,7 +105,7 @@ immense Hilfe: https://jacobsa.github.io/circuits/
 	  Das habe ich lösen können indem ich es einfach mit einem OR-Gate verknüpfe and den MR.
 - Jetzt muss ich testen ob die Reset-Logik funktioniert.\
   Der Testmodus muss eingebaut werden.\
-  Testen war erfolgreich und ich konnte ein paar fehler entfernen.\
+  Testen war erfolgreich und ich konnte ein paar fehler entfernen.
 - Nächster schritt ist die entprellung der Taster.
 -------------------------------------------------
 21.05.2025 (1-stündige Einheit)
