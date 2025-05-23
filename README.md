@@ -1,5 +1,5 @@
 # Engineering-projects
-This is for my projects\
+This is for my projects
 
 # Tools used
 tools used in these projects include:
